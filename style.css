@@ -1,0 +1,159 @@
+.content{
+    width: 1000px;
+    height: 1000px;
+    margin:  0 auto;
+}
+
+.content > .head {
+    width: inherit;
+    height: 100px;
+    padding-top: 20px;
+    background: pink;
+}
+
+.content > .head > .logo {
+    width: 300px;
+    height: 80px;
+    margin: 0px 100px 20px 50px;
+    background: url(4.1.jpg) no-repeat center;
+    background-size: 300px auto;
+    float: left;
+    
+}
+
+.content > .head > .menu {
+    width: 550px;
+    height: inherit;
+    float: left;
+}
+
+.content > .head > .menu > .btn {
+    float: left;
+    width: 110px;
+    height: inherit;
+    font-size:  16px;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+    margin: 40px, 20px;
+}
+
+.content > .head > .menu > .blue {
+    color: blueviolet;
+}
+
+.content > .body {
+    width: inherit;
+    height: 880px;
+    background: aquamarine;
+}
+
+.content > .body > .title {
+    width: inherit;
+    height: 120px;
+    font-size: 46px;
+    text-align: center;
+    line-height: 120px;
+    color: #0a0a0a;
+}
+
+.content > .body > .rough {
+    width: 800px;
+    height: 120px;
+    margin: 0px 100px;
+}
+
+.content > .body > .rough > .unit {
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    float: left;
+    margin: 0px 20px;
+    color: rgb(5, 5, 5);
+}
+
+.content > .body > .rough > .pink {
+    background: #e76a91;
+}
+.content > .body > .rough > .red{
+    background:#bb68e1;
+}
+.content > .body > .rough > .yellow {
+    background: #e88069;
+}
+.content > .body > .rough > .orange{
+    background: #cee469;
+}
+
+.content > .body > .rough >  .unit > .title{
+    width: inherit;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    color: indigo;
+}
+
+.content > .body > .rough >  .unit > .text{
+    width: 120px;
+    height: 60px;
+    margin: 0px 20px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #3c3c3c;
+    
+}
+
+.content > .body > .slider{
+    width: 1000px;
+    height: 500px;
+    margin:  80px 0px;
+    font-size: 14px;
+    text-align: center;
+    background: #65e380;
+}
+
+.content > .body > .slider > .picture{
+    width: 470px;
+    height: 400px;
+    margin: 40px 15px ;
+    float: left;
+    background:#93eca4;
+
+}
+
+.content > .body > .slider > .picture > .cat{
+    width: 470px;
+    height: 400px;
+    background: url(6.2.jpg) no-repeat center;
+}
+.content > .body > .slider > .picture > .button{
+    width: 200px;
+    height: 35px;
+    background: #bbd826;
+    text-align: center;
+    margin:  0 auto;
+    font-size: 30px;
+}
+.content > .body > .slider > .picture > .button1{
+    width: 470px;
+    height: 100px;
+    background: #41da68;
+    text-align: center;
+    margin:  10px 0px;
+    font-size: 25px;
+}
+
+
+
+/*.style {
+    width: 300px;
+    height: 400px;
+    background: pink url(im.jpg) center no-repeat;
+    background-size: 100px auto;  /*for mac
+}
+
+background-size задать один параметр и второй подбираются автоматически(100px auto)
+no repeat center (in bck url)*/
